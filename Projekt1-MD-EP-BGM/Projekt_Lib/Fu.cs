@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Projekt_Lib
 {
-    internal class Fu
+    public enum Fuvek
     {
+        Fukezdemény,
+        Fuvecske,
+        Fucsomo
     }
 }

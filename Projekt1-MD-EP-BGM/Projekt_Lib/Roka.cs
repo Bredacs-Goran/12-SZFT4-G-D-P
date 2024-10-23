@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace Projekt_Lib
 {
-    internal class Roka
+    public class Roka
     {
+        public int Telitettseg { get; private set; }
+        private const int maxtelitettseg = 10;
+
+        public Roka()
+        {
+            Telitettseg = maxtelitettseg;
+        }
     }
+
+
+
 }
