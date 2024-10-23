@@ -15,7 +15,7 @@ namespace Projekt_Lib
         {
             Telitettseg = maxtelitettseg;
         }
-        public void Eves(Nyul nyul)
+        public void Eves(Nyulak nyul)
         {
             Telitettseg += 3;
             if (Telitettseg > maxtelitettseg)
