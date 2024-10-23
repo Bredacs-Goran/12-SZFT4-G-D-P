@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Projekt_Lib
 {
-    internal class Fu
+    public class Fu
     {
+
     }
 }
