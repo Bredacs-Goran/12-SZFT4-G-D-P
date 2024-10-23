@@ -10,6 +10,16 @@
             Telitettseg = maxtelitettseg;
         }
 
+        public void Eves(Fu fu)
+        {
+            string taplalek = fu.Statusz();
+            if (taplalek = Fukezdemeny && Telitettseg + taplalek <= maxtelitettseg)
+            {
+                Telitettseg += taplalek;
+                fu.Evett();
+            }
+        }
+
 
     }
 }
